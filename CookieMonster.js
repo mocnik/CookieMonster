@@ -3194,7 +3194,9 @@ CM.Sim.CalculateGains = function() {
 	if (CM.Sim.Has('Kitten assistants to the regional manager')) catMult *= (1 + (CM.Sim.AchievementsOwned / 25) * 0.175 * milkMult);
 	if (CM.Sim.Has('Kitten marketeers')) catMult *= (1 + (CM.Sim.AchievementsOwned / 25) * 0.15 * milkMult);
 	if (CM.Sim.Has('Kitten analysts')) catMult *= (1 + (CM.Sim.AchievementsOwned / 25) * 0.125 * milkMult);
+	if (CM.Sim.Has('Kitten executives')) catMult *= (1 + (CM.Sim.AchievementsOwned / 25) * 0.115 * milkMult);
 	if (CM.Sim.Has('Kitten angels')) catMult *= (1 + (CM.Sim.AchievementsOwned / 25) * 0.1 * milkMult);
+	if (CM.Sim.Has('Fortune #103')) catMult *= (1 + (CM.Sim.AchievementsOwned / 25) * 0.05 * milkMult);
 
 	mult *= catMult;
 
