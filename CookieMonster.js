@@ -3025,6 +3025,7 @@ eval('CM.Sim.GetTieredCpsMult = ' + Game.GetTieredCpsMult.toString()
 	.split('syn.buildingTie1.amount').join('CM.Sim.Objects[syn.buildingTie1.name].amount')
 	.split('syn.buildingTie2.amount').join('CM.Sim.Objects[syn.buildingTie2.name].amount')
 	.split('me.grandma').join('Game.Objects[me.name].grandma')
+	.split('me.fortune').join('Game.Objects[me.name].fortune')
 	.split('me.id').join('Game.Objects[me.name].id')
 	.split('Game.Objects[\'Grandma\']').join('CM.Sim.Objects[\'Grandma\']')
 );
